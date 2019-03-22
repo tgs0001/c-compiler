@@ -1,0 +1,90 @@
+
+I a b
+
+ Inserted in ScopeTable# 1 at position 1, 0
+
+I b c
+
+ Inserted in ScopeTable# 1 at position 2, 0
+
+I d e
+
+ Inserted in ScopeTable# 1 at position 1, 1
+
+P A
+
+ ScopeTable # 1
+ 0 --> 
+ 1 --> <a : b>  <d : e>  
+ 2 --> <b : c>  
+
+ 
+I e f
+
+ Size changed from 3 to 5
+ Inserted in ScopeTable# 1 at position 3, 0
+
+L e
+
+ Found in ScopeTable# 1 at position 3, 0
+
+I g h
+
+ Inserted in ScopeTable# 1 at position 0, 1
+
+P A
+
+ ScopeTable # 1
+ 0 --> <b : c>  <g : h>  
+ 1 --> 
+ 2 --> <d : e>  
+ 3 --> <e : f>  
+ 4 --> <a : b>  
+
+ 
+I x y
+
+ Size changed from 5 to 9
+ Inserted in ScopeTable# 1 at position 0, 0
+
+P A
+
+ ScopeTable # 1
+ 0 --> <x : y>  
+ 1 --> <g : h>  
+ 2 --> 
+ 3 --> 
+ 4 --> <a : b>  
+ 5 --> <b : c>  
+ 6 --> 
+ 7 --> <d : e>  
+ 8 --> <e : f>  
+
+ 
+S
+
+ New ScopeTable with id 2 created
+
+I x y
+
+ Inserted in ScopeTable# 2 at position 0, 0
+
+P A
+
+ ScopeTable # 2
+ 0 --> <x : y>  
+ 1 --> 
+ 2 --> 
+
+ ScopeTable # 1
+ 0 --> <x : y>  
+ 1 --> <g : h>  
+ 2 --> 
+ 3 --> 
+ 4 --> <a : b>  
+ 5 --> <b : c>  
+ 6 --> 
+ 7 --> <d : e>  
+ 8 --> <e : f>  
+
+ 
